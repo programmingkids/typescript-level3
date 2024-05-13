@@ -1,6 +1,6 @@
 export {};
 
-// address、address.zipは必須ではない
+// address、address.nationは必須ではない
 type User = {
   name: string;
   address?: {

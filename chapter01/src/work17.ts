@@ -15,6 +15,6 @@ function changeValue1(param: string | number): void {
 function changeValue2(param: string | number): void {
   // string | numberで、numberの可能性があるが、
   // paramをstringと断定する
-  const reuslt = (param as string).toUpperCase();
-  console.log(reuslt); // HELLO
+  const result = (param as string).toUpperCase();
+  console.log(result); // HELLO
 }

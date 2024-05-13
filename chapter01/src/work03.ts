@@ -4,7 +4,7 @@ export {};
 let value: any;
 
 // stringの代入可能
-value = 'Hello;';
+value = 'Hello';
 console.log(value); // Hello
 
 // numberの代入可能

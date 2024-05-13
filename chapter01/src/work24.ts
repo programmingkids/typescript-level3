@@ -28,4 +28,3 @@ const s: Score = {
 };
 
 console.log(s);
-// { Japanees: 90, English: 92, Mah: 95, Science: 92, History: 85 }
