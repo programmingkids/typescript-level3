@@ -1,12 +1,13 @@
 export {};
 
-console.log('======');
+type StringOrNumber = string | number;
 
-const names = ['micky', 'minny', 'donald'] as const;
-type Name = (typeof names)[number]; // type Name = 'micky' | 'minny' | 'donald'
-
-const x: Name = 'micky';
-console.log(x);
-
-const y: Name = 'rarara';
-console.log(y);
+function show(value: StringOrNumber): void {
+  if (typeof value === 'string') {
+    console.log(value);
+  } else {
+    console.log(value.toFixed(2));
+  }
+}
+show('Hello'); // Hello
+show(3.14159); // 3.14
